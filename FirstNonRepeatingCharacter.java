@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class firstNonRepeatingCharacter
+public class FirstNonRepeatingCharacter
 { 
     public static char firstNonRepeatingCharacter(String str){
         Map<Character, Integer> freqMap = new HashMap<>();
