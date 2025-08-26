@@ -1,5 +1,5 @@
 
-public class NumberPrinter {
+public class EvenOddThreads {
     private int number = 1;
     private final int MAX = 20;
 
@@ -37,7 +37,7 @@ public class NumberPrinter {
 
     public static void main(String[] args) {
 
-        NumberPrinter print = new NumberPrinter();
+        EvenOddThreads print = new EvenOddThreads();
         Thread oddThread = new Thread(print::printOdd);
         Thread evenThread = new Thread(print::printEven);
         oddThread.start();
